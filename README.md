@@ -15,7 +15,7 @@
   - Se lanza con dos parámetros: el PID del servidor y la cadena de texto a enviar.
   - Envía la cadena de texto al servidor utilizando señales UNIX (solo SIGUSR1 y SIGUSR2).
 
-### Extras
+### Bonus
 - El servidor confirma cada señal recibida enviando una señal al cliente.
 - Soporte para caracteres Unicode.
 
